@@ -1,0 +1,56 @@
+
+.result__component{
+    margin: auto;
+    width: 85%;
+}
+.result__tag--true {
+    color: green;
+}
+
+.result__tag--false {
+    color: red;
+}
+
+.result__item--selected {
+    color: red;
+}
+
+.result__item--result {
+    color: green;
+}
+
+.result__percentage {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.result__list {
+    margin-top: 20px;
+}
+
+.result__item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.result__item p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.result__answer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.result__answer input[type="radio"] {
+    margin-right: 10px;
+}
+
+.result__answer label {
+    font-size: 1em;
+}
