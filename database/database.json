@@ -158,7 +158,8 @@
       "answers": [
         "padding",
         "margin",
-        "border"
+        "border",
+        "Tất cả các đáp án trên"
       ],
       "correctAnswer": 1
     },
@@ -934,6 +935,133 @@
         }
       ],
       "id": 10
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 7,
+          "answer": 3
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        }
+      ],
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        },
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 0
+        },
+        {
+          "questionId": 23,
+          "answer": 0
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        }
+      ],
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        },
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 0
+        },
+        {
+          "questionId": 23,
+          "answer": 0
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        }
+      ],
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [],
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [],
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [],
+      "id": 16
     }
   ]
 }

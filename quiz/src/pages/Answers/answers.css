@@ -1,50 +1,104 @@
+.answer-title{
+    color: #4255FF;
+}
+
 .answers-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid none;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative; /* Để đặt các nút điều hướng chính xác */
+    overflow: auto; /* Ẩn thanh cuộn mặc định */
+}
+
+.answers-elements {
+    display: flex;
+    overflow: hidden; /* Ẩn thanh cuộn mặc định */
+    white-space: nowrap; /* Các phần tử không xuống dòng */
+    scroll-behavior: smooth; /* Thêm hiệu ứng cuộn mượt mà */
+}
+
+.answers-element {
+    display: inline-block; /* Đảm bảo phần tử không xuống dòng */
+    flex: 0 0 400px; /* Chiều rộng cố định cho mỗi phần tử */
+    border: 1px solid #EDEFF4;
+    border-radius: 5px;
     padding: 20px;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 40px auto;
-    text-align: center;
+    margin: 10px; /* Khoảng cách giữa các phần tử */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào kích thước phần tử */
+    position: relative; /* Để position của pseudo-element chính xác */
+    vertical-align: top; /* Căn chỉnh phần tử theo chiều dọc */
 }
 
-.answers-container h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #333;
-}
-
-.answers-table {
+.answers-element::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    height: 5px;
+    background-color: #A8B1FF;
+    transform: scaleY(0); /* Ẩn thanh màu */
+    transform-origin: bottom;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động cho thanh màu */
 }
 
-.answers-table th, .answers-table td {
-    padding: 12px;
-    border: 1px solid #ddd;
-    text-align: left;
+.answers-element:hover::after {
+    transform: scaleY(1); /* Hiển thị thanh màu khi hover */
 }
 
-.answers-table th {
-    background-color: #007bff;
-    color: white;
+.element-id {
+    border: 1px solid none;
+    width: 50px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEFFF;
 }
 
-.answers-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+/* Style cho các nút điều hướng */
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1; /* Đảm bảo nút ở trên cùng */
+    font-size: 50px;
+    color: #586380;
 }
 
-.answers-table tr:hover {
-    background-color: #ddd;
+.scroll-button.left {
+    left: 10px;
 }
 
-.answers-link {
-    color: #007bff;
+.scroll-button.right {
+    right: 10px;
+}
+
+.element-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.element-detail a{
     text-decoration: none;
-    font-weight: bold;
+    color: red;
 }
 
-.answers-link:hover {
-    text-decoration: underline;
+.answers-link{
+    display: flex;
+    align-items: center;
+}
+
+.element-icon{
+    margin-left: 5px;
+    margin-top: 5px;
 }

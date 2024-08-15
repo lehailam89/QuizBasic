@@ -1,4 +1,11 @@
 .home {
+    background-image: url("https://tutinvaodoi.vn/wp-content/uploads/2022/05/doan-dap-an.png");
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+
+.home-desc{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +16,7 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
-    margin: 50px auto;
+    margin: auto;
 }
 
 .home h1 {
