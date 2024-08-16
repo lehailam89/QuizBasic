@@ -1062,6 +1062,56 @@
       "topicId": 3,
       "answers": [],
       "id": 16
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 20,
+          "answer": 1
+        },
+        {
+          "questionId": 21,
+          "answer": 1
+        }
+      ],
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 1
+        },
+        {
+          "questionId": 17,
+          "answer": 3
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 31,
+          "answer": 0
+        }
+      ],
+      "id": 18
     }
   ]
 }
